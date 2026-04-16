@@ -16,6 +16,7 @@ import {
   CaretDown,
   Database,
 } from "@phosphor-icons/react";
+import { BitcoinPrediction } from "./prediction";
 
 /* ================================================================== */
 /*  TYPES                                                              */
@@ -647,6 +648,11 @@ export default function CryptoDashboard() {
             </div>
           </div>
         )}
+
+        {/* Bitcoin Prediction */}
+        <div className="mb-10">
+          <BitcoinPrediction />
+        </div>
 
         {/* Coin table */}
         <div className="rounded-[1.5rem] bg-white/60 p-1.5 ring-1 ring-black/[0.04] shadow-[0_4px_24px_-4px_rgba(0,0,0,0.04)]">
